@@ -57,10 +57,10 @@ public class Main {
         //Задача №4 (масивы)
         System.out.println("Задача №4");
         int [] arr5={1,2,3,4,5,6,7,8,9};
-        for (int g=0; g <= arr5.length;g++)
-        {if (g%2==0);
-            g++;
-            System.out.println(arr5[g]);}}
+        for (int g=0; g <= arr5.length;g++) {
+            if (arr5[g]%2==1)
+            arr5[g]++;
+            System.out.print(arr5[g]+",");}}
 
 
 
